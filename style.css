@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #6fb1fc, #c1dfc4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2980b9;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+.toggle-password {
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.forgot-password,
+.back-login {
+  margin-top: 10px;
+}
+
+.forgot-password a,
+.back-login a {
+  color: #2980b9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover,
+.back-login a:hover {
+  text-decoration: underline;
+}
